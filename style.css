@@ -1,0 +1,37 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    min-height:100vh;
+    overflow: hidden;
+    display: flex;
+    background: rgb(246,106,140);
+background: linear-gradient(90deg, rgba(246,106,140,1) 0%, rgba(131,142,255,1) 35%, rgba(236,176,229,1) 100%);
+}
+
+.left-wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    border-radius: 20px;
+    min-height: 300px;
+    padding: 30px;
+}
+p{
+    font-size:20px !important;
+}
+label{
+    font-size:20px !important;
+}
